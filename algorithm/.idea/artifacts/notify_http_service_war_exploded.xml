@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="notify-http-service:war exploded">
+    <output-path>$PROJECT_DIR$/../../../notify-http-service/target/notify-http-service-beta-1.0.0.${scmVersion}</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="notify-http-service" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../../../notify-http-service/target/notify-http-service-beta-1.0.0.${scmVersion}/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="notify-http-service/web/Web" />
+    </root>
+  </artifact>
+</component>

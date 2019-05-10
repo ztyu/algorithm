@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="notify-http-service:war">
+    <output-path>$PROJECT_DIR$/../../../notify-http-service/target</output-path>
+    <root id="archive" name="notify-http-service-beta-1.0.0.${scmVersion}.war">
+      <element id="artifact" artifact-name="notify-http-service:war exploded" />
+    </root>
+  </artifact>
+</component>

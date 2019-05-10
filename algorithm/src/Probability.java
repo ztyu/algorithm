@@ -1,6 +1,9 @@
+import org.junit.Test;
+
 import java.text.NumberFormat;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Random;
 
 public class Probability {
     public static void main(String[] args) {
@@ -38,5 +41,6 @@ public class Probability {
             System.out.println("。。。占比为" + nfmt.format((double)omap.getValue()/total * 100) +"%");
         }
     }
+
 
 }

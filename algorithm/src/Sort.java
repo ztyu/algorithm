@@ -61,10 +61,11 @@ public class Sort {
     }
 
 
+
     public void swap(int[] L,int i,int j) {
         int temp=L[i];
         L[i]=L[j];
         L[j]=temp;
-
     }
+
 }
